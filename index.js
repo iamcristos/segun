@@ -24,8 +24,8 @@ console.log(check)
          if (arrayArmstrong.length===3) {
             document.getElementById("view").innerHTML=Andela()   
              }     else if (arrayArmstrong.length !=3) {
-                check.style.backgroundColor= '#A9A9A9'
-             } else if (arrayArmstrong.length !=3 &&  (check.style.backgroundColor = '#A9A9A9') ){
+                check.disabled=true
+             } else if (arrayArmstrong.length !=3 &&  (check.disabled=true )){
                  document.getElementById('view')= 'kindly insert a 3 digit number'
              }
          
